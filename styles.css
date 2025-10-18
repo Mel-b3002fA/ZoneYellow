@@ -48,6 +48,7 @@
     margin: 0px;
 }
 
+
 .header-list2-item{
     margin: 0px;
 }
@@ -59,3 +60,6 @@
     font-size: 17px;
 }
 
+.header-list-item-text:hover{
+    font-family: Over the Rainbow;
+}
