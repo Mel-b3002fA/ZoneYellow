@@ -69,18 +69,22 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 30vh; /* fills full viewport height */
-    display: flex;
-    flex-direction: column;
+    height: 23vh; /* fills full viewport height */
     justify-content: center;
     align-items: center;
     padding-right: 120px;
     padding-top: 120px;
     padding-bottom: 120px;
-    margin-top: 70px;
+    margin-top: 100px;
     margin-left: 5vw;
     margin-right: 4vw;
+    
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px;
 }
+
 
 .landing-main{
     color: #ef8aab;
@@ -109,6 +113,7 @@
     line-height: 1;          /* eliminate weird spacing */
     margin: 0;
     font-weight: 100;
+    display: grid;
 }
 
 .landing-main-italic{
