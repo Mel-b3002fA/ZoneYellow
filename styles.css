@@ -63,3 +63,38 @@
 .header-list-item-text:hover{
     font-family: Over the Rainbow;
 }
+
+.landing{
+    background-image: url(./img/pexels-caio-69976.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    height: 70vh; /* fills full viewport height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-right: 120px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    margin-top: 200px;
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+.landing-main{
+    color: #ef8aab;
+    font-family: funnel sans;
+    font-size: 150px;
+    text-transform: uppercase;
+    color: #ef8aab;
+    font-family: "Funnel Sans", sans-serif;
+    font-size: 150px;
+    background: transparent; /* clear any inherited bg */
+    display: inline-block;   /* shrink background to text */
+    line-height: 1;          /* eliminate weird spacing */
+    margin: 0;
+}
