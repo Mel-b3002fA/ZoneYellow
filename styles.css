@@ -1,0 +1,61 @@
+*{
+    list-style: none;
+    background-color: #f9f7f1;
+}
+
+
+.header{
+ border-bottom: 1px solid black;
+ margin-left: 50px;
+ margin-right: 50px;
+}
+
+.headline{
+    font-family: Space Mono;
+    font-weight: 100;
+    font-size: 24px;
+}
+
+.coffee{
+    font-family: Over the Rainbow;
+}
+
+.header-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px;
+}
+
+.div-item2{
+    display: flex;
+}
+
+.header-list1{
+    display: flex;
+    gap: 0.9vw;
+    margin: 0px;
+}
+
+.header-list2{
+    display: flex;
+    gap: 0.9vw;
+    padding-top: 20px;
+    margin: 0px;
+}
+
+.header-list1-item{
+    margin: 0px;
+}
+
+.header-list2-item{
+    margin: 0px;
+}
+
+
+.header-list-item-text{
+    font-family: Space Mono;
+    font-weight: 100;
+    font-size: 17px;
+}
+
