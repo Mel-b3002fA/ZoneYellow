@@ -78,26 +78,53 @@
     margin-top: 100px;
     margin-left: 5vw;
     margin-right: 4vw;
-    
+    z-index: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.landing-div{
+
+    background: transparent; /* clear any inherited bg */
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    gap: 10px;
+    width: 1200px;
+    gap: 200px 180px;
+    z-index: 4;
+  
 }
 
 
 .landing-main{
     color: #ef8aab;
     font-family: funnel sans;
-    font-size: 150px;
+    font-size: 140px;
     text-transform: uppercase;
     color: #ef8aab;
     font-family: "Funnel Sans", sans-serif;
-    font-size: 150px;
     background: transparent; /* clear any inherited bg */
     display: inline-block;   /* shrink background to text */
     line-height: 1;          /* eliminate weird spacing */
     margin: 0;
+}
+
+.landing-main-two{
+
+    display: inline-block;
+  margin-right: 0.3em;
+}
+
+.landing-main-four{
+ padding-left: 240px;
+ background: transparent;
+}
+
+.landing-secondary-div{
+    display: flex;
+    flex-direction: row;
+    background: transparent;
+    gap:10px ;
 }
 
 .light{
